@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.
- * Auth: Brennan D Baraban
+ * Auth: BettyMwiti
  */
 
 #include <stdlib.h>
