@@ -1,6 +1,6 @@
 /*
  * File: 8-print_base16.c
- * Auth: 
+ * Auth: BettyMwiti
  */
 
 #include <stdio.h>
