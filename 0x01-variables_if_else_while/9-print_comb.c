@@ -1,6 +1,6 @@
 /*
  * File: 9-print_comb.c
- * Auth: Brennan D Baraban
+ * Auth: BettyMwiti
  */
 
 #include <stdio.h>
