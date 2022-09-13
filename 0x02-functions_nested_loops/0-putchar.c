@@ -1,20 +1,13 @@
-/*
- * File: 3-islower.c
- * Auth: BettyMwiti
- */
-
-#include "_putchar"
+#include <unistd.h>
 
 /**
- * _islower - Checks if a character is lowercase.
- * @c: The character to be checked.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * Return: 1 if character is lowercase, 0 otherwise.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int _islower(int c)
+int _putchar(char c)
 {
-	if (c >= 'a' && c <= 'z')
-		return (1);
-	else
-		return (0);
+	return (write(1, &c, 1))
 }
